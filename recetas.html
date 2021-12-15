@@ -10,21 +10,25 @@
     <meta name="keywords" content="recetas, cocina casera, gastronomía">
     <link rel="shortcut icon" href="huevo-frito.png" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
-
 </head>
 
-<body style="background-color: aqua;">
+<body>
 
-    <header>
-        <h1>Mis recetas</h1>
-    </header>
-    <nav>
-        <a href="index.html">Inicio</a>
-        <span style="color: #bbb">|</span>
-        <span>Recetas</span>
-        <span style="color: #bbb">|</span>
-        <a href="contactar.html">Contactar</a>
-    </nav>
+    <div class="container mx-auto px-10">
+        <header class="flex justify-center my-5">
+            <img class="h-28" src="images/logo.png" alt="">
+        </header>
+    </div>
+
+    <div class="bg-gray-300 py-4 mb-10">
+        <nav class="container px-10 text-center text-lg">
+            <a class="hover:underline" href="recetas.html">Inicio</a>
+            <span class="text-gray-500 mx-2 text-base">|</span>
+            <span class="text-gray-400">Recetas</span>          
+            <span class="text-gray-500 mx-2 text-base">|</span>
+            <a class="hover:underline" href="contactar.html">Contactar</a>
+        </nav>
+    </div>
 
     <main>
         <div style="background-color: #ddd;border: 1px solid black">
@@ -74,8 +78,11 @@
 
     </main>
 
-
-    <footer>Footer - 2021 ©</footer>
+    <div class="bg-black text-white py-8">
+        <footer class="container px-10">
+            Footer - 2021 ©
+        </footer>        
+    </div>
 
 </body>
 
